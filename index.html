@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaming</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        <h1 class="titletext">Welcome to our Game</h1>
+        <h4 class="meter">
+          remaining attempts : <label class="meterdisplay">5</label>
+        </h4>
+      </div>
+      <div>
+        <label for="num">Enter a number between 1 and 100 : </label>
+        <input type="number" name="num" id="numbers" /><br />
+        <p class="win-or-lose"></p>
+        <button id="play">Play</button>
+        <button id="restart">restart</button>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- to clear pagecache linux: sudo sh -c "sync; echo 1 > /proc/sys/vm/drop_caches" -->
