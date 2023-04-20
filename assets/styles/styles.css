@@ -1,5 +1,21 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+
+body {
+  background: linear-gradient(rgba(0 0 0 / 50%), rgba(0 0 0 / 50%), rgba(0 0 0 / 50%), rgba(0 0 0 / 50%)), url('../images/bg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -12,13 +28,30 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearanonce: textfield;
+  height: 5vh;
 }
 
 #container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   text-align: center;
-  row-gap: 15px;
+  width: 65vw;
+  color: aliceblue;
+  gap: 30%;
+  font-size: 3vh;
+  height: 60vh;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgba(206, 206, 206, 0.5);
+}
+
+.control {
+  margin-top: 20%;
+}
+
+#restart,
+#play {
+  width: 20vw;
+  height: 5vh;
 }
